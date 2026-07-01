@@ -15,7 +15,7 @@
 - `context/services/`: 단일 service context.
 - `context/workflows/`: 여러 service가 엮이는 workflow context.
 - `rules/`: 느슨한 문구 기반 rule pack.
-- `skills/`: 이 저장소 안에서만 쓰는 local skills. 구조 검증과 계약/문구 동기화 검사는 별도 skill로 분리한다.
+- `.agents/skills/`: 이 저장소 안에서만 쓰는 repo-scoped local skills. 구조 검증과 계약/문구 동기화 검사는 별도 skill로 분리한다.
 - `checks/`: zero-dependency 구조 검증 스크립트.
 - `docs/`: 이 저장소 자체의 구조, 절차, guide, template.
 

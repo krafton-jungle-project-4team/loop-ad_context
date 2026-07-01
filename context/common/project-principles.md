@@ -12,9 +12,13 @@ context와 workflow context에 둔다.
 - PostgreSQL contract DB는 AI Decision 결과를 Dashboard/Ads serving과 공유하는 읽기 계약이다.
 - 외부 DB/API 실패를 mock success나 fallback 데이터로 숨기지 않는다.
 - 브라우저 SDK는 Kafka, ClickHouse, AWS secret에 직접 접근하지 않는다.
+- 통합 환경 검증은 각 서비스의 로컬 실행 조합이 아니라 현재 배포된 dev 서버 환경을 기준으로
+  본다.
+- deployable service와 frontend는 각 repository의 `main` branch 변경이 dev 환경 CI/CD의
+  기준이다.
+- 현재 LoopAd는 실제 고객 production data가 아니라 테스트 데이터와 공개 데이터셋 기반으로
+  검증하는 프로젝트다.
+- schema, payload, seed, contract 변경 시 기존 더미 데이터를 보존하는 것보다 DB,
+  ClickHouse, Kafka topic을 초기화하거나 더미 값으로 덮어쓴 뒤 재적재/재생성하는 전략을
+  적극적으로 권장할 수 있다.
 - archived repo와 과거 과제용 repo는 현재 제품 판단 근거로 삼지 않는다.
-
-## TODO
-
-- 운영 배포 후 production-only 원칙과 demo-only 예외를 분리한다.
-

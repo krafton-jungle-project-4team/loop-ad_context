@@ -11,8 +11,8 @@ const requiredFiles = [
   "package.json",
   "registry/services.md",
   "registry/code-map.md",
-  "skills/loopad-ctx-structure-verifier/SKILL.md",
-  "skills/loopad-ctx-contract-sync-checker/SKILL.md",
+  ".agents/skills/loopad-ctx-structure-verifier/SKILL.md",
+  ".agents/skills/loopad-ctx-contract-sync-checker/SKILL.md",
   "docs/reference_repository-structure.md",
   "docs/process_context-maintenance.md"
 ];

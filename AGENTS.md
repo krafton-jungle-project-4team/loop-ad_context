@@ -4,6 +4,14 @@
 [registry/services.md](registry/services.md)의 "사용하는 것"에 있는 GitHub repository를
 기준으로 본다.
 
+이 저장소는 개별 service repository의 README/CONTRIBUTING을 대체하지 않는다.
+대신 프로젝트 간 관계, 공통 계약, cross-repo workflow, 그리고 모든 서비스가 지켜야
+하지만 특정 한 repository 내부에만 소속되기 어려운 규칙을 모아 설명한다. 따라서
+context/rules의 cross-repo 규칙이 개별 service repository의 CI, README,
+CONTRIBUTING에 동일하게 중복되거나 자동 강제되지 않았다는 사실만으로는 불일치로
+판정하지 않는다. 구현, 공개 계약, 책임 경계가 context 설명과 실제로 충돌할 때만
+동기화 문제로 본다.
+
 ## 읽는 순서
 
 1. [registry/services.md](registry/services.md)
@@ -13,8 +21,8 @@
 5. 필요한 [context/services](context/services) 문서
 6. 관련 [context/workflows](context/workflows) 문서
 7. 관련 [rules](rules) 문서
-8. 구조 검증이 필요하면 [skills/loopad-ctx-structure-verifier/SKILL.md](skills/loopad-ctx-structure-verifier/SKILL.md)
-9. 원격 main 또는 명시된 local path와 context/rules 동기화 검사가 필요하면 [skills/loopad-ctx-contract-sync-checker/SKILL.md](skills/loopad-ctx-contract-sync-checker/SKILL.md)
+8. 구조 검증이 필요하면 [.agents/skills/loopad-ctx-structure-verifier/SKILL.md](.agents/skills/loopad-ctx-structure-verifier/SKILL.md)
+9. 원격 main 또는 명시된 local path와 context/rules 동기화 검사가 필요하면 [.agents/skills/loopad-ctx-contract-sync-checker/SKILL.md](.agents/skills/loopad-ctx-contract-sync-checker/SKILL.md)
 
 ## Source Baseline
 
@@ -37,9 +45,9 @@ repo는 코드/계약 판단의 근거로 삼지 않는다.
 ## Local Skill Rule
 
 이 저장소의 검증 skill은 이 저장소 안의 local skill만 기준으로 한다.
-구조 검증은 [skills/loopad-ctx-structure-verifier/SKILL.md](skills/loopad-ctx-structure-verifier/SKILL.md)를,
+구조 검증은 [.agents/skills/loopad-ctx-structure-verifier/SKILL.md](.agents/skills/loopad-ctx-structure-verifier/SKILL.md)를,
 원격 main 또는 명시된 local path와 context/rules 동기화 검사는
-[skills/loopad-ctx-contract-sync-checker/SKILL.md](skills/loopad-ctx-contract-sync-checker/SKILL.md)를 사용한다.
+[.agents/skills/loopad-ctx-contract-sync-checker/SKILL.md](.agents/skills/loopad-ctx-contract-sync-checker/SKILL.md)를 사용한다.
 외부/개인 Codex skill에 의존하지 않는다.
 
 평가 결과는 기본적으로 대화 리포트로만 출력한다. 사용자가 명시적으로 요청하지 않으면
