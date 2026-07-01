@@ -1,0 +1,11 @@
+{
+  "name": "loop-ad-context",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify": "node checks/verify-context.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
