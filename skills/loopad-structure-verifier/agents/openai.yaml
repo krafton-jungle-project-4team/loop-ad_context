@@ -1,4 +1,0 @@
-interface:
-  display_name: "LoopAd Structure Verifier"
-  short_description: "Verify LoopAd context repository structure."
-  default_prompt: "Use $loopad-structure-verifier to verify this LoopAd context repository structure."

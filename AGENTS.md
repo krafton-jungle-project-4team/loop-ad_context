@@ -13,8 +13,8 @@
 5. 필요한 [context/services](context/services) 문서
 6. 관련 [context/workflows](context/workflows) 문서
 7. 관련 [rules](rules) 문서
-8. 구조 검증이 필요하면 [skills/loopad-structure-verifier/SKILL.md](skills/loopad-structure-verifier/SKILL.md)
-9. 원격 main 또는 명시된 local path와 context/rules 동기화 검사가 필요하면 [skills/loopad-contract-sync-checker/SKILL.md](skills/loopad-contract-sync-checker/SKILL.md)
+8. 구조 검증이 필요하면 [skills/loopad-ctx-structure-verifier/SKILL.md](skills/loopad-ctx-structure-verifier/SKILL.md)
+9. 원격 main 또는 명시된 local path와 context/rules 동기화 검사가 필요하면 [skills/loopad-ctx-contract-sync-checker/SKILL.md](skills/loopad-ctx-contract-sync-checker/SKILL.md)
 
 ## Source Baseline
 
@@ -37,9 +37,9 @@ repo는 코드/계약 판단의 근거로 삼지 않는다.
 ## Local Skill Rule
 
 이 저장소의 검증 skill은 이 저장소 안의 local skill만 기준으로 한다.
-구조 검증은 [skills/loopad-structure-verifier/SKILL.md](skills/loopad-structure-verifier/SKILL.md)를,
+구조 검증은 [skills/loopad-ctx-structure-verifier/SKILL.md](skills/loopad-ctx-structure-verifier/SKILL.md)를,
 원격 main 또는 명시된 local path와 context/rules 동기화 검사는
-[skills/loopad-contract-sync-checker/SKILL.md](skills/loopad-contract-sync-checker/SKILL.md)를 사용한다.
+[skills/loopad-ctx-contract-sync-checker/SKILL.md](skills/loopad-ctx-contract-sync-checker/SKILL.md)를 사용한다.
 외부/개인 Codex skill에 의존하지 않는다.
 
 평가 결과는 기본적으로 대화 리포트로만 출력한다. 사용자가 명시적으로 요청하지 않으면

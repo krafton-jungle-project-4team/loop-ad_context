@@ -1,5 +1,5 @@
 ---
-name: loopad-structure-verifier
+name: loopad-ctx-structure-verifier
 description: Verify the internal structure of the loop-ad_context repository. Use when checking AGENTS.md links, required files, service context sections, rule id uniqueness, registry shape, or npm run verify results. This skill does not compare context against service implementation.
 ---
 
@@ -9,7 +9,7 @@ description: Verify the internal structure of the loop-ad_context repository. Us
 
 Use this skill only inside `loop-ad_context` to check whether the context repository itself is
 well-formed. Do not use it to judge whether project descriptions match real service code; use
-`loopad-contract-sync-checker` for that.
+`loopad-ctx-contract-sync-checker` for that.
 
 ## Required Reading
 

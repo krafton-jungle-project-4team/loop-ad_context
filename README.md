@@ -14,7 +14,7 @@
 - 문장 기반 규칙 묶음을 관리하되 엄격한 schema contract로 다루지 않습니다.
 - 로컬 구조 검증은 `npm run verify`로 실행합니다.
 - 원격 `main` 또는 명시된 local path와의 내용 동기화 검사는
-  `skills/loopad-contract-sync-checker/SKILL.md`를 기준으로 수행합니다.
+  `skills/loopad-ctx-contract-sync-checker/SKILL.md`를 기준으로 수행합니다.
 
 ## 기본 사용
 

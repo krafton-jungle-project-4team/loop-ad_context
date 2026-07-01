@@ -1,0 +1,4 @@
+interface:
+  display_name: "LoopAd Ctx Contract Sync Checker"
+  short_description: "Check LoopAd context against main or branch."
+  default_prompt: "Use $loopad-ctx-contract-sync-checker to check whether LoopAd context and rules match the project baseline."

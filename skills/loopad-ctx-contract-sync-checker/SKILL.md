@@ -1,5 +1,5 @@
 ---
-name: loopad-contract-sync-checker
+name: loopad-ctx-contract-sync-checker
 description: Check whether loop-ad_context service context, workflow context, rules, and contract wording match the LoopAd GitHub org projects' remote main baseline or explicitly supplied local development paths. Use for sync/drift checks against implementation, README, endpoints, env, data flow, and service responsibility boundaries.
 ---
 
@@ -9,7 +9,7 @@ description: Check whether loop-ad_context service context, workflow context, ru
 
 Use this skill only inside `loop-ad_context` to evaluate whether context/rules/contract wording
 matches the actual managed LoopAd projects. This is separate from structure verification; run
-`loopad-structure-verifier` or `npm run verify` only as a secondary check.
+`loopad-ctx-structure-verifier` or `npm run verify` only as a secondary check.
 
 ## Required Reading
 

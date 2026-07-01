@@ -20,7 +20,7 @@ local path가 명시되지 않은 평가는 GitHub org에서 관리하는 reposi
 
 네트워크나 인증 문제로 원격 `main`을 확인할 수 없으면 추정하지 않고 한계를 리포트한다.
 
-이 평가는 `skills/loopad-contract-sync-checker/SKILL.md`를 기준으로 수행한다.
+이 평가는 `skills/loopad-ctx-contract-sync-checker/SKILL.md`를 기준으로 수행한다.
 
 ## Local Comparison
 
@@ -45,5 +45,5 @@ local path가 명시되지 않은 평가는 GitHub org에서 관리하는 reposi
 npm run verify
 ```
 
-구조 검증은 `skills/loopad-structure-verifier/SKILL.md`를 기준으로 수행한다. 구조 검증은
+구조 검증은 `skills/loopad-ctx-structure-verifier/SKILL.md`를 기준으로 수행한다. 구조 검증은
 내용 동기화 검사를 대체하지 않는다.
