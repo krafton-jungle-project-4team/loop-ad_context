@@ -27,8 +27,3 @@
 - `RULE-AD-001`
 - `RULE-AD-002`
 - `RULE-EVENT-001`
-
-## TODO
-
-- no-fill, fallback ad, tracking id propagation 규칙을 보강한다.
-

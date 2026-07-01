@@ -15,8 +15,3 @@
 - experiment: 액션과 소재를 검증하기 위한 실험 단위.
 - placement: 데모 프론트 또는 고객사 화면에서 광고가 렌더링되는 지면.
 - contract DB: AI Decision이 쓰고 Dashboard/Ads serving이 읽는 PostgreSQL 계약 DB.
-
-## TODO
-
-- 실제 product naming과 외부 고객사 문서에 노출할 용어를 확정한다.
-

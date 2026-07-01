@@ -25,8 +25,3 @@ PostgreSQL contract DB에 저장한다.
 - `RULE-AI-001`
 - `RULE-AI-002`
 - `RULE-DATA-002`
-
-## TODO
-
-- daily/manual/demo job 차이와 failure/idempotency 규칙을 보강한다.
-

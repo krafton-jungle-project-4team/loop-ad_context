@@ -17,8 +17,3 @@ LoopAd는 사용자 행동 이벤트를 수집하고, 행동 데이터를 분석
 
 서비스별 세부 책임은 [../services](../services)를 본다. 여러 서비스가 엮이는 흐름은
 [../workflows](../workflows)를 본다.
-
-## TODO
-
-- AI Decision의 실제 job 단계와 contract DB write model을 `origin/main` 기준으로 보강한다.
-

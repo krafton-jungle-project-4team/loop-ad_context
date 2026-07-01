@@ -18,17 +18,12 @@ HTTP endpoint, SDK API, package, DB table, env 등 외부 접점을 쓴다.
 
 ## 관련 workflow
 
-- TODO
+- [../workflows/<workflow-name>.md](../workflows/<workflow-name>.md)
 
 ## 관련 rule
 
-- TODO
+- `RULE-AREA-001`
 
 ## 로컬 검증
 
 서비스 repo의 README/CONTRIBUTING 기준 명령을 쓴다.
-
-## TODO
-
-- 보강할 내용을 쓴다.
-

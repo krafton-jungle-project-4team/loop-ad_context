@@ -7,7 +7,7 @@
 - 여러 서비스가 함께 만드는 흐름만 workflow context에 둔다.
 - 단일 서비스 책임은 service context로 링크한다.
 - 단계는 실제 데이터 흐름이나 호출 흐름 순서로 쓴다.
-- 확실하지 않은 부분은 TODO로 남긴다.
+- 확정된 데이터 흐름과 호출 흐름만 작성하고, 확인되지 않은 내용은 문서에 넣지 않는다.
 
 ## 필수 섹션
 
@@ -17,4 +17,3 @@
 - 관련 rule
 
 새 파일은 [template_workflow-context.md](template_workflow-context.md)를 복사해서 시작한다.
-

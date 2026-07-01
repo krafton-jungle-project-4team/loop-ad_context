@@ -6,18 +6,12 @@
 
 ## 참여 서비스
 
-- TODO
+- `loop-ad_<service>`
 
 ## 흐름
 
-1. TODO
+1. 확정된 데이터 흐름이나 호출 흐름을 쓴다.
 
 ## 관련 rule
 
-- TODO
-
-## TODO
-
-- 보강할 내용을 쓴다.
-
-l
+- `RULE-AREA-001`

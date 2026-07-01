@@ -32,8 +32,3 @@
 ## 로컬 검증
 
 서비스 repo의 README/CONTRIBUTING을 기준으로 한다.
-
-## TODO
-
-- SDK public API와 tracking callback 규칙을 `origin/main` 기준으로 보강한다.
-

@@ -12,7 +12,10 @@ content, experiment 결과를 생성하는 AI/decision service다.
 
 ## 공개 인터페이스
 
-- TODO: job 실행 방식, 내부 admin/manual trigger, 결과 write contract를 `origin/main` 기준으로 정리한다.
+- Dev API service domain: `https://decision.api.dev.loop-ad.org`.
+- PostgreSQL contract DB write model: decision run, segment, anomaly, recommendation,
+  content, experiment, serving mapping, and segment matching tables.
+- ClickHouse read model: `events` behavior event table.
 
 ## 의존 서비스
 
@@ -35,8 +38,3 @@ content, experiment 결과를 생성하는 AI/decision service다.
 ## 로컬 검증
 
 서비스 repo의 README/CONTRIBUTING을 기준으로 한다.
-
-## TODO
-
-- job schedule, manual trigger, idempotency, output table mapping을 보강한다.
-
