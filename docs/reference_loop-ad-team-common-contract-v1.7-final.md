@@ -2592,14 +2592,18 @@ ChatKit/세그먼트 쿼리 endpoint 제외
 
 ```text
 호텔 도메인 shared types / DB repository / API client
-메인 대시보드 / 마케팅 기획서
-실시간 추이
-퍼널
-세그먼트 페이지와 SQL Preview API
+프로젝트 / 캠페인 목록
+캠페인 상세: 마케팅 기획, 실시간 추이, 워크플로우 View, 프로모션 목록
+프로모션 목록 / 프로모션 상세
+프로모션 상세의 세그먼트 탭 관리
+세그먼트 목록 / 세그먼트 상세
+캠페인 / 프로모션 / 세그먼트 실시간 추이
+퍼널과 세그먼트 집계
+세그먼트 조회와 SQL Preview API
 사용자 정의 세그먼트 저장 API
 ChatKit UI와 Dashboard action backend
-AI 생성 페이지 리포트
-워크플로우 DAG
+생성 콘텐츠와 생성 이유 리포트 표시
+워크플로우 View
 종료 후 결과 / 재실험 흐름
 Dashboard API 광고 실행 모듈
 Decision lifecycle 호출

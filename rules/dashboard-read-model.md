@@ -42,5 +42,27 @@ promotion_run/ad_experiment 생성, segment assignment build, evaluation, next-l
 
 ## RULE-DASHBOARD-008
 
-호텔 예약 funnel은 기본 fixture를 제공할 수 있지만 하드코딩된 유일한 funnel로 취급하지
+호텔 예약 funnel은 기본 예시를 제공할 수 있지만 하드코딩된 유일한 funnel로 취급하지
 않는다. Dashboard에서 project, promotion, channel에 맞게 수정 가능한 정의로 관리한다.
+
+## RULE-DASHBOARD-009
+
+Dashboard Web은 프로젝트를 최상위 작업 공간으로 두고 캠페인 목록, 캠페인 상세, 프로모션
+목록, 프로모션 상세, 세그먼트 상세를 계층적으로 탐색한다. 기존의 독립 페이지 나열만으로
+Dashboard 화면 구조를 설명하지 않는다.
+
+## RULE-DASHBOARD-010
+
+캠페인 상세는 마케팅 기획, 캠페인 실시간 추이, 워크플로우 View, 프로모션 목록을 함께
+관리한다. 캠페인 실시간 추이는 지표, 집계, 프로모션 집계를 분리해서 볼 수 있어야 한다.
+
+## RULE-DASHBOARD-011
+
+프로모션 상세는 여러 세그먼트를 탭 형태의 작업 단위로 열어 관리할 수 있어야 한다. 각
+세그먼트 탭은 세그먼트 요약, 실시간 지표, 집계, 퍼널, SMS/Email 발송 상태, 배너
+조회/클릭률을 함께 보여준다.
+
+## RULE-DASHBOARD-012
+
+AI 생성 결과와 생성 이유 리포트는 프로모션/세그먼트 맥락 안에서 표시할 수 있다. Dashboard
+계약은 생성 결과를 반드시 독립된 생성 전용 화면으로만 노출한다고 가정하지 않는다.

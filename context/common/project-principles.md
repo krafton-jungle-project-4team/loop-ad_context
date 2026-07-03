@@ -7,6 +7,12 @@ context와 workflow context에 둔다.
 
 - 기본 구현 기준은 사용하는 GitHub repository의 `origin/main`이다.
 - local path는 사용자가 명시한 경우에만 개발 중 변경 비교 대상으로 본다.
+- 사용자-facing 계층은 Campaign → Promotion → Segment → Ad Experiment로 고정한다.
+- 세그먼트는 캠페인 전체가 아니라 프로모션별로 생성되거나 사용자가 정의한다.
+- Dashboard Web은 프로젝트를 최상위 작업 공간으로 두고 캠페인 상세, 프로모션 상세,
+  세그먼트 상세를 계층적으로 탐색한다.
+- 프로모션 상세는 여러 세그먼트를 탭 형태의 작업 단위로 열어 세그먼트별 지표와
+  프로모션 전체 지표를 비교할 수 있어야 한다.
 - Dashboard API와 Ads serving API는 AI Decision을 요청 경로에서 직접 호출하지 않는다.
 - ClickHouse는 raw event source를 유지한다.
 - PostgreSQL contract DB는 AI Decision 결과를 Dashboard/Ads serving과 공유하는 읽기 계약이다.

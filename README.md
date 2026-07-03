@@ -27,6 +27,7 @@ context 링크, rule id 중복처럼 구조적으로 확실히 확인 가능한 
 
 ## 유지보수 문서
 
+- [Loop-Ad Team Common Contract v1.7 Final Reference](docs/reference_loop-ad-team-common-contract-v1.7-final.md)
 - [Repository Structure](docs/reference_repository-structure.md)
 - [Context Maintenance Process](docs/process_context-maintenance.md)
 - [Service Context Authoring Guide](docs/guide_service-context-authoring.md)
